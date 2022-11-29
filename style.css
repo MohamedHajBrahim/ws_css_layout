@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+li{
+    list-style: none;
+}
+
+.menuLogo{
+    width: 268px;
+    height: 33px;
+    margin-top: 8px;
+}
+.menuLogo,.mainMenu,.subMenu:hover{
+    cursor: pointer;
+}
+
+.subMenu{
+    display: none;
+    position: absolute;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    width: 180px;
+    height: 223px;
+    margin-left: -100px;
+    z-index: 1;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.mainMenu{
+    display: flex;
+}
+
+.mianMenuItem{
+    margin-left: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ABABAB;
+}
+.mianMenuItem:hover .subMenu{
+    display: block;
+}
+li:hover{
+    color: #00BFA5;
+}
+.subMenuItem{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ABABAB;
+    height: 28px;
+    width: 180px;
+    margin-left: -40px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    background: #fff;
+   
+    
+}
+#marketing{
+    margin-top: 8px;
+}
+.subMenuItem:hover{
+    background-color: #F6F8F8;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color: #00bfa5;
+}
+.para1{
+    display: flex;
+    padding: 0 200px;
+    justify-content: space-around;
+}
+.para1 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+    width: 477.5px;
+    height: 112px;
+    margin: 13px 0 13px 0;
+    
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    
+}
+.partie1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    background-color: #1AD1B9;
+    width: 311.645px;
+    height: 345px;
+    margin: 32px 0px 0px 0px;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+.logo11{
+    width: 24px;
+    height: 24px;
+    margin: 30px 0 0 30px;
+} 
+.titre1{
+     font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: rgb(255, 255, 255);
+    margin: 5px 0 5px 30px;
+}
+.titre2{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    margin: 5px 0 30px 30px;
+}
+.partie2{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    background-color:#3D83DF;
+    width: 311.645px;
+    height: 345px;
+    margin: 32px 0px 0px 32px;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+.partie3{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    background-color:#323D49;
+    width: 311.645px;
+    height: 345px;
+    margin: 32px 0px 0px 32px;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+.choose_country{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    margin: 5px 0 30px 30px;
+    
+}
+#choose-country{
+    border: none;
+    background-color: #1AD1B9;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    text-decoration: underline;
+}
+select option{
+    background-color: white;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #333;
+
+}
+#choose-country2{
+    border: none;
+    background-color:#3D83DF;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    text-decoration: underline;
+}
+
+#choose-country3{
+    border: none;
+    background-color:#323D49;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    text-decoration: underline;
+    margin-top: 10px; 
+}
